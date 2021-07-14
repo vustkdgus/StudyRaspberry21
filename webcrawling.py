@@ -16,5 +16,5 @@ finedust = details[0].find('span', {'class', 'num'})
 #pprint(finedust)
 ultrafinedust = details[1].find('span', {'class', 'num'})
 ozone = details[2].find('span', {'class', 'num'})
-
+#.
 print('{0}, {1}, {2}'.format(finedust, ultrafinedust, ozone))
