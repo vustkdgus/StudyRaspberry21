@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>476</width>
-    <height>428</height>
+    <height>430</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -63,18 +63,18 @@
      </property>
     </widget>
    </widget>
-   <widget class="QListView" name="lsvResult">
+   <widget class="QTableWidget" name="tblResult">
     <property name="geometry">
      <rect>
       <x>10</x>
       <y>90</y>
       <width>451</width>
-      <height>321</height>
+      <height>291</height>
      </rect>
     </property>
    </widget>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QStatusBar" name="stsResult"/>
  </widget>
  <resources/>
  <connections/>
